@@ -173,7 +173,6 @@ function play() {
     requestAnimationFrame(play);
     start.innerText = "Arrêter";
     canvas.style.display = "block";
-    document.getElementById("game-over").innerText = "";
   }
 }
 
